@@ -1,15 +1,13 @@
 ddrv:
-  token: your_token_here
+  token: "MTE5ODMzNTI1NjE2ODc2MzQzMg.GMDZrr.igVYBgOcN_l_BjfuU55k26oHl8--2tGVnhm7lE"
   token_type: 0 # (0 - Bot, 1 - User, 2 - Nitro User, 3 - Basic Nitro User)
-  channels:
-    - channel1
-    - channel2
+  channels: "1198336285941698700,1198336477755609269"
 
 dataprovider:
   boltdb:
     db_path: ./ddrv.db
   postgres:
-    db_url: postgres://user:password@localhost:port/database?sslmode=disable
+    db_url: mongodb+srv://modifiedmod04:uYfGhM8fDPCi95QW@telegrambot.jfqynai.mongodb.net/?retryWrites=true&w=majority
 
 frontend:
   ftp:
